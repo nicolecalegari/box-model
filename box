@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+   <style>
+        div {
+            height: 400px;
+            width: 400px;
+            border-width: 40px;
+            border-style: ridge;
+            border-color: rgb(129, 29, 29);
+            
+
+            background-image: url(https://i.pinimg.com/736x/29/7d/7f/297d7fab031544dc34e8e201b531c278.jpg);
+    box-shadow: inset 5px 5px 5px 5px;
+    background-size: cover;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    outline-width: 20px;
+    outline-style: dashed;
+    outline-color: rgb(204,204,0);
+
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+p {
+
+        padding-top: 150px;
+        font-style: italic;
+        color: rgb(212, 212,212);
+        font-weight: bolder;
+        font-size: 60px;
+
+
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <div>
+
+        <p>Descodificadas</p>
+
+
+    </div>
+  </body>
+</html>
